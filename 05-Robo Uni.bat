@@ -8,12 +8,12 @@ color a
 echo Computador: %computername%   user: dnacenter\administrador 
 
 @echo ==========================================================================
-@echo				 Instalando Robo Unimed
+@echo				 Instalando Robo Uni
 @echo			  
 @echo ==========================================================================
 
 
-start /w \\192.168.0.220\Publico\TI\00-Programas-Instalacao-Padrao\Programas\RoboUnimed\Robo.exe
+start /w \\xxxxx\Publico\TI\00-Programas-Instalacao-Padrao\Programas\RoboUnimed\Robo.exe
 
 @echo ==========================================================================
 @echo			     Configuracoes necessarias
@@ -21,6 +21,6 @@ start /w \\192.168.0.220\Publico\TI\00-Programas-Instalacao-Padrao\Programas\Rob
 @echo ==========================================================================
 
 
-xcopy \\192.168.0.220\Publico\TI\00-Programas-Instalacao-Padrao\Programas\RoboUnimed\chromedriver.exe C:\windows /Y
+xcopy \\xxxxx\Publico\TI\00-Programas-Instalacao-Padrao\Programas\RoboUnichromedriver.exe C:\windows /Y
 xcopy  C:\Users\%username%\Desktop\teste-auto-updater.lnk C:\Users\Public\Desktop /y
 pause
