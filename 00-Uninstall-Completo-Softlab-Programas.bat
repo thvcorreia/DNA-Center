@@ -13,33 +13,33 @@ NET STOP "ND Atualizador de Estação"
 @ECHO ==========================================================================
 
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ControlLabCom.Setup 1.0.2.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ControlLabCom.Setup 1.0.2.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Atualizador de Estação 1.1.8.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Atualizador de Estação 1.1.8.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Autorizador de Convênios (Cliente) 3.5.5.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Autorizador de Convênios (Cliente) 3.5.5.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND B2B DBrasil 1.0.1.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND B2B DBrasil 1.0.1.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND CBHPM 3.15.2.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND CBHPM 3.15.2.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Contas Médicas (Cliente) 3.27.9.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Contas Médicas (Cliente) 3.27.9.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Documentos Atendimento 3.13.12.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Documentos Atendimento 3.13.12.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Exportador de Resultados 1.7.15.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Exportador de Resultados 1.7.15.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Exportador Softlab Cloud 1.1.15.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Exportador Softlab Cloud 1.1.15.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Integração Chame Fácil Client 1.0.4.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Integração Chame Fácil Client 1.0.4.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Integração Fortes (Cliente) 3.13.2.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Integração Fortes (Cliente) 3.13.2.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Laudos 1.11.0.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Laudos 1.11.0.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Qualichart 3.0.2.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Qualichart 3.0.2.msi" /qb
 
-msiexec /uninstall "\\192.168.0.220\softlab\softlab3\ND Soroteca 3.26.2.msi" /qb
+msiexec /uninstall "\\xxxxxxx\softlab\softlab3\ND Soroteca 3.26.2.msi" /qb
 
 @ECHO.
 @ECHO ==========================================================================
