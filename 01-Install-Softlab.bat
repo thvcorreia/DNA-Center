@@ -13,33 +13,33 @@ echo Computador: %computername%   Usuario: %username%
 @echo ==========================================================================
 pause.
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ControlLabCom.Setup.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ControlLabCom.Setup.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Atualizador de Estacao.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Atualizador de Estacao.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Autorizador de Convenios (Cliente).msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Autorizador de Convenios (Cliente).msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND B2B DBrasil.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND B2B DBrasil.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND CBHPM.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND CBHPM.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Contas Medicas (Cliente).msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Contas Medicas (Cliente).msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Documentos Atendimento.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Documentos Atendimento.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Exportador de Resultados.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Exportador de Resultados.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Exportador Softlab Cloud.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Exportador Softlab Cloud.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Integracao Chame Facil Client.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Integracao Chame Facil Client.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Integracao Fortes (Cliente).msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Integracao Fortes (Cliente).msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Laudos.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Laudos.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Qualichart.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Qualichart.msi" /qb
 
-msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Soroteca.msi" /qb
+msiexec /package "\\xxxxxxx\publico\TI\00-Programas-Instalacao-Padrao\Programas\00-softlab3\ND Soroteca.msi" /qb
 
 
 
@@ -52,7 +52,7 @@ msiexec /package "\\192.168.0.220\publico\TI\00-Programas-Instalacao-Padrao\Prog
 
 mkdir "C:\ProgramData\ND Engenharia e Software\S3\SOROTECA"
 
-copy \\192.168.0.220\Publico\TI\00-Programas-Instalacao-Padrao\Configuracoes\SOFTLAB.INI C:\Users\Public\Desktop\ /Y
+copy \\xxxxxxx\Publico\TI\00-Programas-Instalacao-Padrao\Configuracoes\SOFTLAB.INI C:\Users\Public\Desktop\ /Y
 
 cacls C:\Users\Public\Desktop\SOFTLAB.INI /E /P Todos:F
 
@@ -62,12 +62,16 @@ cacls "C:\ProgramData\ND Engenharia e Software" /E /T /P Todos:F
 
 cacls "C:\Program Files (x86)\ND Engenharia e Software" /E /T /P Todos:F
 
-copy \\192.168.0.220\Publico\TI\00-Programas-Instalacao-Padrao\Configuracoes\s3config.bin "C:\ProgramData\ND Engenharia e Software\S3\SOROTECA" /Y
+copy \\xxxxxxx\Publico\TI\00-Programas-Instalacao-Padrao\Configuracoes\s3config.bin "C:\ProgramData\ND Engenharia e Software\S3\SOROTECA" /Y
 
-copy \\192.168.0.229\Fortes\AG\AG.ini C:\Fortes\AG /Y
+copy \\xxxxxxx\Fortes\AG\AG.ini C:\Fortes\AG /Y
 
-copy \\192.168.0.229\Fortes\AC\AC.ini C:\Fortes\AC /Y
+copy \\xxxxxxx\Fortes\AC\AC.ini C:\Fortes\AC /Y
 
 cacls C:\Windows\SysWOW64\eventcreate.exe /E /T /P Todos:F
+
+@echo ==========================================================================
+@echo			    Instalação Finalizada
+@echo ==========================================================================
 
 pause
